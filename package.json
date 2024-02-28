@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "cucumber": "^6.0.7",
+    "webdriverio": "^8.32.3"
+  },
+  "devDependencies": {
+    "@wdio/cli": "^8.32.3",
+    "@wdio/local-runner": "^8.32.3",
+    "@wdio/mocha-framework": "^8.32.3",
+    "@wdio/spec-reporter": "^8.32.2"
+  },
+  "scripts": {
+    "wdio": "wdio run ./wdio.conf.js"
+  }
+}
