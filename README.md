@@ -13,6 +13,12 @@ Run command:
 ```
 npm run wdio
 ```
+## Specific tags to pick (@cart, @cart_remove, @search, @checkout)
+
+## Example 
+```
+npx wdio wdio.conf.js --cucumberOpts.tags=@cart
+```
 
 ## How to view report
 First run the tests and then run command:
